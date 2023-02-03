@@ -1,4 +1,4 @@
-#include <mcs51/at89x051.h>
+#include <at89x051.h>
 
 #define ASK 0
 #define ANSWER 1

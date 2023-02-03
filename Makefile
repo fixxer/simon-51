@@ -34,6 +34,7 @@ all: $(TARGET).ihx
 
 debug:
 	@echo
+	@echo "Target:" $(TARGET)
 	@echo "Source files:" $(SOURCES)
 	@echo "Header files:" $(HEADERS)
 	@echo "MCU, MCU_FAMILY, BAUD:"  $(MCU), $(MCU_FAMILY)
